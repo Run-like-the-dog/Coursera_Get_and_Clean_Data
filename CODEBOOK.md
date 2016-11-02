@@ -32,6 +32,8 @@ The variable names indicate:
 - If applicable, which axis the movement was on (X,Y or Z)
 - If applicable, derivatives are identified by “derivative”	
 
+The variable names and the corresponding original measurements are in the file namelist.txt
+
 THE CODE
 =========================================================================================================
 
