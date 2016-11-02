@@ -36,13 +36,13 @@ THE CODE
 =========================================================================================================
 
 The code in R does the following steps:
-1.	Calls the R libraries needed for the code
-2.	Sets the names of the directories based upon the current working directory
-3.	Checks whether the data has already been downloaded in the working directory and if not, it downloads and unzips to/UCI HAR DATASET
-4.	Reads in the labels for measurements, works out which measurements are mean or std and creates a vector of which columns of data to include (include), creates updated variable names that are easier to understand (names).  Reads in the names of the activities (activity).
-5.	Reads in the required columns of data from the test directory (testdata)
-6.	Reads in the required columns of data from the train directory (traindata)
-7.	Combines the test and training data (tidydata) and writes “tidydata.txt” if it doesn’t exist
-8.	Calculates the average for each variable (averages) and writes “tidyaverages.txt” if it does not exist
-9.	Cleans up the workspace by removing all working objects.
+- 1.	Calls the R libraries needed for the code
+- 2.	Sets the names of the directories based upon the current working directory
+- 3.	Checks whether the data has already been downloaded in the working directory and if not, it downloads and unzips to/UCI HAR DATASET
+- 4.	Reads in the labels for measurements, works out which measurements are mean or std and creates a vector of which columns of data to include (include), creates updated variable names that are easier to understand (names).  Reads in the names of the activities (activity).
+- 5.	Reads in the required columns of data from the test directory (testdata)
+- 6.	Reads in the required columns of data from the train directory (traindata)
+- 7.	Combines the test and training data (tidydata) and writes “tidydata.txt” if it doesn’t exist
+- 8.	Calculates the average for each variable (averages) and writes “tidyaverages.txt” if it does not exist
+- 9.	Cleans up the workspace by removing all working objects.
 
