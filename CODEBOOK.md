@@ -1,9 +1,9 @@
-CODEBOOK Coursera Getting and Cleaning Data Course Project
-=========================================================================================================
+CODEBOOK 
+=========
+Coursera Getting and Cleaning Data Course Project
 
-=========================================================================================================
 THE DATA
-=========================================================================================================
+==========
 
 ORIGINAL DATA
 The original data came from the project:
@@ -11,16 +11,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The experiments in the project were carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
 
-
 TIDY DATA
 The tidy data is produced in a file averages.txt in wide format.
 The tidy data contains the average of each variable for each subject and activity.
 Variables are only included for those measurements in the project which are mean() or std() in the original data.
 
-=====================================================================================================================
 THE VARIABLES
 =====================================================================================================================
-
 The columns in the tidy data are as follows:
 
 subject		(Which subject performed the activity)
@@ -112,7 +109,6 @@ fBodyBodyGyroMag-std()		frequency_bodybody_angular_velocity_magnitude_std()
 fBodyBodyGyroJerkMag-mean()	frequency_bodybody_angular_velocity_derivative_magnitude_mean()
 fBodyBodyGyroJerkMag-std()	frequency_bodybody_angular_velocity_derivative_magnitude_std()
 
-=========================================================================================================
 THE CODE
 =========================================================================================================
 
