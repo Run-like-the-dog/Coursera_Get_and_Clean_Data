@@ -1,9 +1,9 @@
 CODEBOOK Coursera Getting and Cleaning Data Course Project
-=========================================================================================================
+===========================================================
 
-=========================================================================================================
+
 THE DATA
-=========================================================================================================
+=========
 
 ORIGINAL DATA
 The original data came from the project:
@@ -17,7 +17,7 @@ The tidy data is produced in a file averages.txt in wide format.
 The tidy data contains the average of each variable for each subject and activity.
 Variables are only included for those measurements in the project which are mean() or std() in the original data.
 
-=====================================================================================================================
+
 THE VARIABLES
 =====================================================================================================================
 
@@ -112,9 +112,9 @@ fBodyBodyGyroMag-std()		frequency_bodybody_angular_velocity_magnitude_std()
 fBodyBodyGyroJerkMag-mean()	frequency_bodybody_angular_velocity_derivative_magnitude_mean()
 fBodyBodyGyroJerkMag-std()	frequency_bodybody_angular_velocity_derivative_magnitude_std()
 
-=========================================================================================================
+
 THE CODE
-=========================================================================================================
+========
 
 The code in R does the following steps:
 1.	Calls the R libraries needed for the code
