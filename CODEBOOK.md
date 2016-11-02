@@ -44,7 +44,7 @@ The code in R carries out the following steps:
 -	Reads in the labels for measurements, works out which measurements are mean or std and creates a vector of which columns of data to include (include), creates updated variable names that are easier to understand (names).  Reads in the names of the activities (activity).
 -	Reads in the required columns of data from the test directory (testdata)
 -	Reads in the required columns of data from the train directory (traindata)
--	Combines the test and training data (tidydata) and writes “tidydata.txt” if it doesn’t exist
--	Calculates the average for each variable (averages) and writes “tidyaverages.txt” if it does not exist
+-	Combines the test and training data (tidydata) and writes “tidydata.txt”
+-	Calculates the average for each variable (averages) and writes “tidyaverages.txt”
 -	Cleans up the workspace by removing all working objects.
 
