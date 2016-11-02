@@ -17,9 +17,7 @@ meanFreq(): Weighted average of the frequency components to obtain a mean freque
 
 I have output the data in wide format as a txt file averages.txt.  The guide to the assignment, ref[2] states that either wide or narrow form of output is acceptable.
 
-To read the tidy data file, you can use the following code:
-temp<-read.table(“tidyaverages.txt”)
-View(temp)
+The tidy data can be read using the read.table function.
 
 Variables:
 ======================================
