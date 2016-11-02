@@ -35,7 +35,7 @@ The variable names indicate:
 THE CODE
 =========================================================================================================
 
-The code in R does the following steps:
+The code in R carries out the following steps:
 -	Calls the R libraries needed for the code
 -	Sets the names of the directories based upon the current working directory
 -	Checks whether the data has already been downloaded in the working directory and if not, it downloads and unzips to/UCI HAR DATASET
