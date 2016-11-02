@@ -31,6 +31,7 @@ The dataset includes the following files:
 - 'README.txt’
 - ‘CODEBOOK.txt': Information about the data, variables and code
 - ‘averages.txt': Contains the data output.
+- 'name_list.txt':  Contains a list of the original measurement variables and the renamed (more descriptive) variable name
 - ‘run_analysis.R’: The code used to download the data from the project, select and summarise it, and output averages.txt.
 
 References:
